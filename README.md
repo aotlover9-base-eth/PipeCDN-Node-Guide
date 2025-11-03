@@ -88,7 +88,7 @@ sudo ufw status
 Verify that your server can successfully connect to the Pipe CDN API endpoint.
 
 ```bash
-curl -v [https://api.plpipe.com](https://api.plpipe.com)
+curl -v https://api.plpipe.com
 ```
 
 *Expected Result: The output should show the connection succeeding, displaying SSL handshake details and ideally a small HTML/JSON response, not a "Could not resolve host" or "Connection reset" error.*
