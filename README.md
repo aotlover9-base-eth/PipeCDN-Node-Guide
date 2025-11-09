@@ -19,7 +19,7 @@ First, create the necessary directory and download the Pipe binary.
 ```bash
 mkdir -p /opt/pipe
 cd /opt/pipe
-curl -L "[https://pipe.network/p1-cdn/releases/latest/download/pop](https://pipe.network/p1-cdn/releases/latest/download/pop)" -o pop
+curl -L "https://pipe.network/p1-cdn/releases/latest/download/pop" -o pop
 chmod +x pop
 ```
 
