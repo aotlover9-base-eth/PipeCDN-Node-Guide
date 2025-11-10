@@ -131,7 +131,7 @@ WORKDIR /opt/pipe
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
 # Download and install the binary (included for self-contained image builds)
-RUN curl -L "[https://pipe.network/p1-cdn/releases/latest/download/pop](https://pipe.network/p1-cdn/releases/latest/download/pop)" -o pop
+RUN curl -L https://pipe.network/p1-cdn/releases/latest/download/pop -o pop
 RUN chmod +x pop
 
 # Copy your local .env file into the container
